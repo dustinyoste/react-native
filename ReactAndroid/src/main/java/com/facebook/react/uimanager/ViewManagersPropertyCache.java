@@ -92,6 +92,7 @@ import java.util.Map;
           Arrays.fill(VIEW_MGR_GROUP_ARGS, null);
         }
       } catch (Throwable t) {
+        /*
         FLog.e(ViewManager.class, "Error while updating prop " + mPropName, t);
         throw new JSApplicationIllegalArgumentException(
             "Error while updating property '"
@@ -99,6 +100,7 @@ import java.util.Map;
                 + "' of a view managed by: "
                 + viewManager.getName(),
             t);
+            */
       }
     }
 
